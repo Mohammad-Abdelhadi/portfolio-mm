@@ -287,8 +287,20 @@ span {
 .first h1 {
   width: auto;
 }
-.second {
-  display: flex;
+
+.form {
+  width: 100%;
+  margin: 0 auto;
+}
+
+form input {
+  margin: 10px;
+  height: auto;
+}
+form textarea {
+  margin: 10px;
+  height: auto;
+  width: 100%;
 }
 .photos {
   display: grid;
@@ -319,12 +331,6 @@ span {
   width: auto;
 }
 
-form input,
-form textarea {
-  margin: 10px;
-  width: 100%;
-  height: auto;
-}
 ::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: rgb(135, 118, 118);

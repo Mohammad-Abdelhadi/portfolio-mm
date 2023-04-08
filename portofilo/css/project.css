@@ -221,31 +221,7 @@ span {
   justify-content: center;
 }
 
-.contact {
-  background-color: #19142a;
-  padding-bottom: 100px;
-}
-.contact h1,
-.contact p {
-  text-align: center;
-  color: white;
-}
-.contact-container {
-  background-color: rgb(25, 10, 163);
-  width: 50%;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  flex: 1;
-  margin: 0 auto;
-  padding: 30px;
-}
-form input {
-  margin: 10px;
-  width: 100%;
-  height: auto;
-}
+
 ::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: rgb(135, 118, 118);

@@ -6,6 +6,7 @@
 
 body {
   position: relative;
+  background-color: #19142a;
 }
 
 .container-fluid {
@@ -137,8 +138,8 @@ button:hover::before {
   display: grid;
   justify-content: center;
   align-items: center;
-  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
-  grid-template-rows: repeat(auto-fit, minmax(300px, auto));
+  grid-template-columns: repeat(auto-fit, minmax(500px, auto));
+  grid-template-rows: repeat(auto-fit, minmax(450px, auto));
   gap: 10px 10px;
   height: auto;
 }
@@ -167,8 +168,8 @@ button a {
   color: rgb(255, 255, 255);
 }
 .link-photos > img {
-  width: 300px;
-  height: 300px;
+  width: 500px;
+  height: 450px;
 }
 .link-photos > #clk:hover {
   cursor: pointer;
@@ -216,6 +217,7 @@ button a {
 
   background-color: #ffffff;
   width: 100%;
+  margin: 0 auto;
 }
 
 .skills > h1,
@@ -260,11 +262,11 @@ span {
 }
 
 .contact {
-  background-color: #19142a;
+  background-color: #2a2344;
   padding-bottom: 100px;
   padding: 30px;
   width: 100%;
-  height: 900px;
+  height: 500px;
 }
 .contents {
   width: 80%;
@@ -273,7 +275,7 @@ span {
   height: 30vh;
 }
 .contents p {
-  width: 27%;
+  width: 45%;
   font-size: 0.7rem;
 }
 .contactus {
@@ -334,7 +336,7 @@ form textarea {
 ::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: rgb(135, 118, 118);
-  opacity: 0.4; /* Firefox */
+  opacity: 0.7; /* Firefox */
 }
 
 .btn {
@@ -363,6 +365,10 @@ form textarea {
   align-items: center;
 }
 
-img:hover {
+/* img:hover {
   transform: scale(1.1);
-}
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+} */

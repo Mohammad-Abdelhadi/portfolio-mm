@@ -26,7 +26,12 @@ body {
   height: 5.3rem;
 }
 
-.nav-link {
+.nav-item {
+  margin-left: 30px;
+  text-align: center;
+}
+.navbar-nav .nav-item  .nav-link:hover {
+  color: red !important;
 }
 .nav-link button {
   border-radius: 32px;
@@ -58,7 +63,7 @@ body {
 .grid {
   display: grid;
   justify-content: space-around;
-  height: 70%;
+  height: 500px;
   grid-template-areas: "welcome welcome r-photo r-photo";
 }
 .welcome-message {
@@ -80,6 +85,7 @@ body {
 }
 .right-photo img {
   width: 67%;
+  padding-bottom: 30px;
 }
 
 button {
@@ -93,6 +99,10 @@ button {
   border: none;
   border-radius: 32px;
   background-color: #d6223b;
+  -webkit-border-radius: 32px;
+  -moz-border-radius: 32px;
+  -ms-border-radius: 32px;
+  -o-border-radius: 32px;
 }
 
 button::before {
@@ -106,12 +116,19 @@ button::before {
   background-color: hsl(0, 0%, 100%);
   transform-origin: center right;
   transform: scaleX(0);
+  border-radius: 32px;
+
   transition: transform 0.25s ease-in-out;
 }
 
 button:hover {
   cursor: pointer;
   color: black;
+  border-radius: 32px;
+  -webkit-border-radius: 32px;
+  -moz-border-radius: 32px;
+  -ms-border-radius: 32px;
+  -o-border-radius: 32px;
 }
 
 button:hover::before {

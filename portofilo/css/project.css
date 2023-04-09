@@ -1,11 +1,9 @@
 * {
   padding: 0;
   margin: 0;
-  background-image: url();
 }
 
 body {
-  position: relative;
 }
 
 .container-fluid {
@@ -30,6 +28,10 @@ body {
 }
 .nav-link button {
   border-radius: 32px;
+  -webkit-border-radius: 32px;
+  -moz-border-radius: 32px;
+  -ms-border-radius: 32px;
+  -o-border-radius: 32px;
 }
 
 /* .jumbotron {
@@ -55,6 +57,10 @@ button {
   border: none;
   border-radius: 32px;
   background-color: #d6223b;
+  -webkit-border-radius: 32px;
+  -moz-border-radius: 32px;
+  -ms-border-radius: 32px;
+  -o-border-radius: 32px;
 }
 
 button::before {
@@ -69,6 +75,14 @@ button::before {
   transform-origin: center right;
   transform: scaleX(0);
   transition: transform 0.25s ease-in-out;
+  -webkit-transition: transform 0.25s ease-in-out;
+  -moz-transition: transform 0.25s ease-in-out;
+  -ms-transition: transform 0.25s ease-in-out;
+  -o-transition: transform 0.25s ease-in-out;
+  -webkit-transform: scaleX(0);
+  -moz-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  -o-transform: scaleX(0);
 }
 
 button:hover {
@@ -79,23 +93,26 @@ button:hover {
 button:hover::before {
   transform-origin: center left;
   transform: scaleX(1);
+  -webkit-transform: scaleX(1);
+  -moz-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  -o-transform: scaleX(1);
 }
 .navbar-toggler-icon {
   color: white;
 }
 .projects {
-  background-color: #ffffff;
+  background-color: #19142a;
   width: 100%;
   height: auto;
   padding: 30px;
-  border: 3px solid red;
-  margin-bottom: 30px;
+  margin-bottom: 200px;
 }
 .projects > h1 {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 .projects > p {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 .cards {
   display: grid;
@@ -220,7 +237,6 @@ span {
   display: flex;
   justify-content: center;
 }
-
 
 ::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */

@@ -13,7 +13,7 @@ body {
   display: flex;
 
   width: 100%;
-  height: 800px;
+  height: 900px;
   background-color: rgb(25, 20, 42);
   /* background-image: url(images/sss.jpg); */
   background-position: center;
@@ -138,8 +138,8 @@ button:hover::before {
   display: grid;
   justify-content: center;
   align-items: center;
-  grid-template-columns: repeat(auto-fit, minmax(500px, auto));
-  grid-template-rows: repeat(auto-fit, minmax(450px, auto));
+  grid-template-columns: repeat(auto-fit, minmax(400px, auto));
+  grid-template-rows: repeat(auto-fit, minmax(350px, auto));
   gap: 10px 10px;
   height: auto;
 }
@@ -168,8 +168,8 @@ button a {
   color: rgb(255, 255, 255);
 }
 .link-photos > img {
-  width: 500px;
-  height: 450px;
+  width: 400px;
+  height: 350px;
 }
 .link-photos > #clk:hover {
   cursor: pointer;
@@ -266,7 +266,7 @@ span {
   padding-bottom: 100px;
   padding: 30px;
   width: 100%;
-  height: 500px;
+  height: 600px;
 }
 .contents {
   width: 80%;

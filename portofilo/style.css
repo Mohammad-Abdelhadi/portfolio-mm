@@ -1,7 +1,8 @@
 * {
   padding: 0;
   margin: 0;
-box-sizing: border-box;}
+  box-sizing: border-box;
+}
 
 body {
 }
@@ -11,7 +12,6 @@ body {
 }
 
 .containerr {
-
   width: 100%;
   height: 100%;
   background-color: rgb(25, 20, 42);
@@ -30,7 +30,7 @@ body {
   margin-left: 30px;
   text-align: center;
 }
-.navbar-nav .nav-item  .nav-link:hover {
+.navbar-nav .nav-item .nav-link:hover {
   color: red !important;
 }
 .nav-link button {
@@ -63,7 +63,7 @@ body {
 .grid {
   display: grid;
   justify-content: space-around;
-  height: 500px;
+  height: 650px;
   grid-template-areas: "welcome welcome r-photo r-photo";
 }
 .welcome-message {
@@ -156,7 +156,7 @@ button:hover::before {
   align-items: center;
   grid-template-columns: repeat(auto-fit, minmax(400px, auto));
   grid-template-rows: repeat(auto-fit, minmax(350px, auto));
-  gap: 10px 10px;
+  gap: 10px 37px;
   height: auto;
 }
 .projects > h1,
@@ -186,6 +186,8 @@ button a {
 .link-photos > img {
   width: 400px;
   height: 350px;
+  border-radius: 16px;
+  gap: 10px 37px;
 }
 .link-photos > #clk:hover {
   cursor: pointer;
@@ -234,6 +236,7 @@ button a {
   background-color: #ffffff;
   width: 100%;
   margin: 0 auto;
+  margin-bottom: 30px;
 }
 
 .skills > h1,
@@ -374,7 +377,6 @@ form textarea {
   background-color: #d6223b;
   width: 110px;
   height: 37px;
-  border: 1px solid white;
   border-radius: 16px;
   display: flex;
   justify-content: center;
@@ -388,3 +390,28 @@ form textarea {
   -ms-transform: scale(1.1);
   -o-transform: scale(1.1);
 } */
+@media (max-width: 480px) {
+  .logo {
+    width: 50px;
+    height: 50px;
+  }
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+
+    padding-bottom: 50px;
+    height: 450px;
+  }
+  .welcome-message h1 {
+    font-size: calc(1rem + 1.5vw);
+  }
+  .welcome-message p {
+    font-size: 12px;
+  }
+  .right-photo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+  }
+}

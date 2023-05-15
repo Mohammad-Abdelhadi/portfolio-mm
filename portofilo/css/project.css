@@ -157,13 +157,15 @@ button:hover::before {
   align-items: center;
   grid-template-columns: repeat(auto-fit, minmax(400px, auto));
   grid-template-rows: repeat(auto-fit, minmax(350px, auto));
-  gap: 10px 10px;
+  gap: 10px 37px;
   height: auto;
   height: auto;
 }
 .projects > h1,
 .projects > p {
   text-align: center;
+  margin-bottom: 30px;
+
 }
 
 .cards > img {
@@ -190,6 +192,7 @@ button a {
 .link-photos > img {
   width: 400px;
   height: 350px;
+  border-radius: 16px;
 }
 .link-photos > #clk:hover {
   cursor: pointer;
